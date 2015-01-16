@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50B5176E1A2A928600046577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B5176D1A2A928600046577 /* main.m */; };
+		50B517711A2A928600046577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B517701A2A928600046577 /* AppDelegate.m */; };
+		50B517741A2A928600046577 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B517731A2A928600046577 /* MasterViewController.m */; };
+		50B517771A2A928600046577 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B517761A2A928600046577 /* DetailViewController.m */; };
+		50B5177A1A2A928600046577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B517781A2A928600046577 /* Main.storyboard */; };
+		50B5177C1A2A928600046577 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B5177B1A2A928600046577 /* Images.xcassets */; };
+		50B5177F1A2A928600046577 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B5177D1A2A928600046577 /* LaunchScreen.xib */; };
+		50B5178B1A2A928600046577 /* GramadoBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B5178A1A2A928600046577 /* GramadoBusTests.m */; };
+		50B517951A2A92B400046577 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B517941A2A92B400046577 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B517851A2A928600046577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B517601A2A928600046577 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B517671A2A928600046577;
+			remoteInfo = GramadoBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50B517681A2A928600046577 /* GramadoBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GramadoBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B5176C1A2A928600046577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B5176D1A2A928600046577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50B5176F1A2A928600046577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50B517701A2A928600046577 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50B517721A2A928600046577 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		50B517731A2A928600046577 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		50B517751A2A928600046577 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		50B517761A2A928600046577 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		50B517791A2A928600046577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50B5177B1A2A928600046577 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50B5177E1A2A928600046577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50B517841A2A928600046577 /* GramadoBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GramadoBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B517891A2A928600046577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B5178A1A2A928600046577 /* GramadoBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GramadoBusTests.m; sourceTree = "<group>"; };
+		50B517941A2A92B400046577 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B517651A2A928600046577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B517951A2A92B400046577 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B517811A2A928600046577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B5175F1A2A928600046577 = {
+			isa = PBXGroup;
+			children = (
+				50B517941A2A92B400046577 /* MapKit.framework */,
+				50B5176A1A2A928600046577 /* GramadoBus */,
+				50B517871A2A928600046577 /* GramadoBusTests */,
+				50B517691A2A928600046577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50B517691A2A928600046577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B517681A2A928600046577 /* GramadoBus.app */,
+				50B517841A2A928600046577 /* GramadoBusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B5176A1A2A928600046577 /* GramadoBus */ = {
+			isa = PBXGroup;
+			children = (
+				50B5176F1A2A928600046577 /* AppDelegate.h */,
+				50B517701A2A928600046577 /* AppDelegate.m */,
+				50B517721A2A928600046577 /* MasterViewController.h */,
+				50B517731A2A928600046577 /* MasterViewController.m */,
+				50B517751A2A928600046577 /* DetailViewController.h */,
+				50B517761A2A928600046577 /* DetailViewController.m */,
+				50B517781A2A928600046577 /* Main.storyboard */,
+				50B5177B1A2A928600046577 /* Images.xcassets */,
+				50B5177D1A2A928600046577 /* LaunchScreen.xib */,
+				50B5176B1A2A928600046577 /* Supporting Files */,
+			);
+			path = GramadoBus;
+			sourceTree = "<group>";
+		};
+		50B5176B1A2A928600046577 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B5176C1A2A928600046577 /* Info.plist */,
+				50B5176D1A2A928600046577 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50B517871A2A928600046577 /* GramadoBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B5178A1A2A928600046577 /* GramadoBusTests.m */,
+				50B517881A2A928600046577 /* Supporting Files */,
+			);
+			path = GramadoBusTests;
+			sourceTree = "<group>";
+		};
+		50B517881A2A928600046577 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B517891A2A928600046577 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B517671A2A928600046577 /* GramadoBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B5178E1A2A928600046577 /* Build configuration list for PBXNativeTarget "GramadoBus" */;
+			buildPhases = (
+				50B517641A2A928600046577 /* Sources */,
+				50B517651A2A928600046577 /* Frameworks */,
+				50B517661A2A928600046577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GramadoBus;
+			productName = GramadoBus;
+			productReference = 50B517681A2A928600046577 /* GramadoBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50B517831A2A928600046577 /* GramadoBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B517911A2A928600046577 /* Build configuration list for PBXNativeTarget "GramadoBusTests" */;
+			buildPhases = (
+				50B517801A2A928600046577 /* Sources */,
+				50B517811A2A928600046577 /* Frameworks */,
+				50B517821A2A928600046577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B517861A2A928600046577 /* PBXTargetDependency */,
+			);
+			name = GramadoBusTests;
+			productName = GramadoBusTests;
+			productReference = 50B517841A2A928600046577 /* GramadoBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B517601A2A928600046577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GramadoBus;
+				TargetAttributes = {
+					50B517671A2A928600046577 = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					50B517831A2A928600046577 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 50B517671A2A928600046577;
+					};
+				};
+			};
+			buildConfigurationList = 50B517631A2A928600046577 /* Build configuration list for PBXProject "GramadoBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B5175F1A2A928600046577;
+			productRefGroup = 50B517691A2A928600046577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B517671A2A928600046577 /* GramadoBus */,
+				50B517831A2A928600046577 /* GramadoBusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B517661A2A928600046577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B5177A1A2A928600046577 /* Main.storyboard in Resources */,
+				50B5177F1A2A928600046577 /* LaunchScreen.xib in Resources */,
+				50B5177C1A2A928600046577 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B517821A2A928600046577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B517641A2A928600046577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B517711A2A928600046577 /* AppDelegate.m in Sources */,
+				50B517741A2A928600046577 /* MasterViewController.m in Sources */,
+				50B5176E1A2A928600046577 /* main.m in Sources */,
+				50B517771A2A928600046577 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B517801A2A928600046577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B5178B1A2A928600046577 /* GramadoBusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B517861A2A928600046577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B517671A2A928600046577 /* GramadoBus */;
+			targetProxy = 50B517851A2A928600046577 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50B517781A2A928600046577 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B517791A2A928600046577 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50B5177D1A2A928600046577 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B5177E1A2A928600046577 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B5178C1A2A928600046577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B5178D1A2A928600046577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B5178F1A2A928600046577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GramadoBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50B517901A2A928600046577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GramadoBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50B517921A2A928600046577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GramadoBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GramadoBus.app/GramadoBus";
+			};
+			name = Debug;
+		};
+		50B517931A2A928600046577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GramadoBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GramadoBus.app/GramadoBus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B517631A2A928600046577 /* Build configuration list for PBXProject "GramadoBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B5178C1A2A928600046577 /* Debug */,
+				50B5178D1A2A928600046577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B5178E1A2A928600046577 /* Build configuration list for PBXNativeTarget "GramadoBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B5178F1A2A928600046577 /* Debug */,
+				50B517901A2A928600046577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50B517911A2A928600046577 /* Build configuration list for PBXNativeTarget "GramadoBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B517921A2A928600046577 /* Debug */,
+				50B517931A2A928600046577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B517601A2A928600046577 /* Project object */;
+}
